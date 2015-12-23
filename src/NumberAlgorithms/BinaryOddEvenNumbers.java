@@ -93,6 +93,6 @@ public class BinaryOddEvenNumbers {
         return (binValue.charAt(binValue.length()-1) != '0') ? true : false;    
         
         // Modulus Version when not working with binary.
-        //return (value % 2 == 0) ? true : false;
+        //return (value % 2 != 0) ? true : false;
     }       
 }

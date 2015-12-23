@@ -24,7 +24,7 @@
  * ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE 
  * POSSIBILITY OF SUCH DAMAGE.
  */
-package NumberAlgorithms;
+package ArrayAlgorithms;
 
 import static javaalgorithms.DataAccess.readNumbers;
 import static javaalgorithms.PrintService.printArray;
@@ -92,6 +92,24 @@ public class AvgMaxMinFrequencyNumbers {
         }
         
         return greaterCount;        
+    }
+    
+    /**
+     * Finds the next highest/maximum element in the array and returns it.
+     * @param numArray int[] - The array to be searched.
+     * @return int - The next highest/maximum value in the array.
+     */
+    public static int getNextHighest(int[] numArray){
+        
+        int max = getMax(numArray);
+        
+        int high2 = Integer.MIN_VALUE;
+
+        for(int i : numArray){
+            // Assign element value to 'high2' if it is greater than that value AND less than the maximum.
+            high2 = (i > high2 && i < max) ? i : high2;
+        }
+        return high2;		
     }
     
     /**

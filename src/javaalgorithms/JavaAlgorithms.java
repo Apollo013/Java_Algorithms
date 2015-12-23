@@ -1,6 +1,6 @@
 package javaalgorithms;
 
-import ArrayAlgorithms.DuplicateElements;
+import MatrixAlgorithms.MatrixTransposing;
 
 /**
  *
@@ -26,9 +26,9 @@ public class JavaAlgorithms {
         NUMBER ALGORITHMS
         ***************************************************/
         //NumberPyramids.Run();
-        //BinaryOddEvenNumbers.Run();
-        //AvgMaxMinFrequencyNumbers.Run();
+        //BinaryOddEvenNumbers.Run();        
         //ArmstrongNumbers.Run();
+        //SumOfAllDigits.Run();
         
         
         /***************************************************
@@ -36,7 +36,18 @@ public class JavaAlgorithms {
         ***************************************************/    
         //ReverseArray.Run();
         //ArrayEquality.Run();
-        DuplicateElements.Run();
+        //DuplicateElements.Run();
+        //AvgMaxMinFrequencyNumbers.Run();
+        
+        
+        /***************************************************
+        MATRIX ALGORITHMS
+        ***************************************************/
+        //MatrixCreation.Run();
+        //MatrixAddition.Run();
+        //MatrixManipulation.Run();
+        MatrixTransposing.Run();
+        
     }
 
 }

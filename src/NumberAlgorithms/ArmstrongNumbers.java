@@ -43,30 +43,20 @@ public class ArmstrongNumbers {
         
         System.out.println("nTest 1");
         check1(153);
- 
         check1(371);
- 
-        check1(9474);
- 
-        check1(54748);
- 
-        check1(407);
- 
+        check1(9474); 
+        check1(54748); 
+        check1(407); 
         check1(1674);
-        
-        
+                
         System.out.println("\nTest 2");
-        check2(153);
- 
-        check2(371);
- 
-        check2(9474);
- 
-        check2(54748);
- 
-        check2(407);
- 
+        check2(153); 
+        check2(371); 
+        check2(9474); 
+        check2(54748); 
+        check2(407); 
         check2(1674);
+        
     }
     
     private static void check1(int number)
@@ -104,10 +94,7 @@ public class ArmstrongNumbers {
     }
     
     private static void check2(int number){
-        
-        // Make a copy so we can compare later
-        int copyOfNumber = number;
- 
+
         char[] digits = String.valueOf(number).toCharArray();
         
         // Determine the number of digits there are
