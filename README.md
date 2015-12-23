@@ -14,7 +14,7 @@ This is an ongoing project but here's whats covered so far ...
 
 ##NUMBERS##
 * Determining Armstrong numbers
-* WOdd / Even Numbers (using binary & modulus)
+* Odd / Even Numbers (using binary & modulus)
 * Number pyramids
 
 
@@ -22,6 +22,12 @@ This is an ongoing project but here's whats covered so far ...
 * Array equality
 * Duplicate elements
 * Array reversal
-* Number Arrays - Avg, Min, Max, Frequency
+* Number Arrays - Avg, Min, Max, Frequency, Next Max
 
 
+##MATRIXES##
+* Creation
+* Calculations (adding, subtracting, etc..)
+* Manipulation
+* Transposing
+* 
