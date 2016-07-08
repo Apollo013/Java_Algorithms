@@ -3,31 +3,35 @@ Demonstrating a variety of common algorithms for strings, numbers & arrays.
 
 This project demonstrates multiple solutions for any particular problem.
 
+---
+
 This is an ongoing project but here's whats covered so far ...
 
-##STRINGS##
+####STRINGS
 * Locating duplicate characters
 * Whitespace removal
 * String reversal
 * Anagrams
 
+---
 
-##NUMBERS##
+####NUMBERS
 * Determining Armstrong numbers
 * Odd / Even Numbers (using binary & modulus)
 * Number pyramids
 
+---
 
-##ARRAYS##
+####ARRAYS
 * Array equality
 * Duplicate elements
 * Array reversal
 * Number Arrays - Avg, Min, Max, Frequency, Next Max
 
+---
 
-##MATRIXES##
+####MATRIXES
 * Creation
 * Calculations (adding, subtracting, etc..)
 * Manipulation
 * Transposing
-* 
